@@ -73,7 +73,7 @@ const resolvers = {
 const server = new ApolloServer({
   typeDefs,
   resolvers,
-  introspection: false,
+  introspection: true,
   playground: true
 });
 
